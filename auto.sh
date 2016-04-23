@@ -12,7 +12,5 @@ name="helloworld"
 dmcs $Scripts_name
 #this command make a copy of your compiled program and moves to folder for you#
 cp $Scripts_name $path 
-#this command removed the left over .exe#
-rm $Scripts_name
 twidge update "New Build of $name has been made and is able to be downloaded new build every 3h"
 
